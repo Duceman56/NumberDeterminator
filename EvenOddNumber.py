@@ -9,4 +9,4 @@ def evenOddNumber (inputValue) :
         return("Odd")
 
 #driver
-print(evenOddNumber(22))
+print(evenOddNumber(23))
