@@ -1,7 +1,10 @@
 x = int(input("Input a number: "))
-print(x)
 
 
 
-#def primeNumber (inputValue, outputValue) : 
 
+#PARAMETER: inputValue is float type
+#PARAMETER: outputType is string type
+
+def primeNumber (inputValue, outputType) : 
+if 
