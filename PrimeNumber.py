@@ -1,10 +1,13 @@
-x = int(input("Input a number: "))
-
-
-
+primeNumberFactor = 2
 
 #PARAMETER: inputValue is float type
-#PARAMETER: outputType is string type
 
-def primeNumber (inputValue, outputType) : 
-if 
+def primeNumber (inputValue) : 
+    itself = inputValue
+    if (inputValue / iter(1)).is_integer() :
+        return("Good Boi")
+    else :
+        return("bad boi")
+
+#driver
+print(primeNumber(11))
