@@ -1,0 +1,47 @@
+[
+    {
+        "label": "evenOddNumbe",
+        "kind": 2,
+        "importPath": "EvenOddNumber",
+        "description": "EvenOddNumber",
+        "peekOfCode": "def evenOddNumber (inputValue) : \n    if (inputValue / evenFactor).is_integer() :\n        return(\"Even\")\n    else :\n        return(\"Odd\")\n#driver\nprint(evenOddNumber(23))",
+        "detail": "EvenOddNumber",
+        "documentation": {}
+    },
+    {
+        "label": "evenFactor",
+        "kind": 5,
+        "importPath": "EvenOddNumber",
+        "description": "EvenOddNumber",
+        "peekOfCode": "evenFactor = 2\n#PARAMETER: inputValue is float type\ndef evenOddNumber (inputValue) : \n    if (inputValue / evenFactor).is_integer() :\n        return(\"Even\")\n    else :\n        return(\"Odd\")\n#driver\nprint(evenOddNumber(23))",
+        "detail": "EvenOddNumber",
+        "documentation": {}
+    },
+    {
+        "label": "determineNumber",
+        "kind": 2,
+        "importPath": "NumberDeterminator",
+        "description": "NumberDeterminator",
+        "peekOfCode": "def determineNumber(inputValue) :\n    \"\"\"\n    determineNumber determines if the input value is even or odd\n    _extended_summary_\n    :param inputValue: the value to be determined\n    :type inputValue: float\n    \"\"\"\n    if (inputValue / evenFactor).is_integer() : # if the input value is even\n        return(\"Even\")\n    else :",
+        "detail": "NumberDeterminator",
+        "documentation": {}
+    },
+    {
+        "label": "evenFactor",
+        "kind": 5,
+        "importPath": "NumberDeterminator",
+        "description": "NumberDeterminator",
+        "peekOfCode": "evenFactor = 2\n#PARAMETER: inputValue is float type\ndef determineNumber(inputValue) :\n    \"\"\"\n    determineNumber determines if the input value is even or odd\n    _extended_summary_\n    :param inputValue: the value to be determined\n    :type inputValue: float\n    \"\"\"\n    if (inputValue / evenFactor).is_integer() : # if the input value is even",
+        "detail": "NumberDeterminator",
+        "documentation": {}
+    },
+    {
+        "label": "primeNumber_Check",
+        "kind": 2,
+        "importPath": "PrimeNumber",
+        "description": "PrimeNumber",
+        "peekOfCode": "def primeNumber_Check(inputValue) :\n    \"\"\"\n    primeNumber_Check determines if the input value is prime or not\n    _extended_summary_\n    :param inputValue: the value to be determined\n    :type inputValue: float\n    \"\"\"\n    # a prime number is a number that is only divisible by itself and 1.\n    # if the input value is divisible by 2, it is not prime\n    if type(inputValue) == float :",
+        "detail": "PrimeNumber",
+        "documentation": {}
+    }
+]
