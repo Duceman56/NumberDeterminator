@@ -1,13 +1,13 @@
-primeNumberFactor = 2
-
 #PARAMETER: inputValue is float type
+modulusFactor = 2
 
 def primeNumber (inputValue) : 
-    itself = inputValue
-    if (inputValue / iter(1)).is_integer() :
-        return("Good Boi")
+    if (inputValue % modulusFactor) == 1 :
+        return("prime number found")
     else :
-        return("bad boi")
+        return("not a prime number")
+    
 
 #driver
-print(primeNumber(11))
+print(primeNumber(15))
+
